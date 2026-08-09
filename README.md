@@ -23,7 +23,7 @@
 termux-setup-storage
 ```
 ```bash
-curl -sS https://raw.githubusercontent.com/MiForge/MiTool/master/install.sh | bash
+curl -sS https://raw.githubusercontent.com/zxprime/zunlock/main/install.sh | bash
 ```
 
 <div align="center">
