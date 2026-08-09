@@ -1,0 +1,35 @@
+<div align="center">
+
+<h1 style="font-size: 24px; color: #FF6719; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">MiTool</h1>
+
+![](https://img.shields.io/badge/Compatible%20with%20Android(Termux)-black?logo=android&logoColor=green&style=for-the-badge)
+
+[![Version 1.5.9](https://img.shields.io/badge/Version-1.5.9-brightgreen)](#)
+
+[![Changelog](https://img.shields.io/badge/Changelog-brightgreen)](https://github.com/MiForge/MiTool/blob/main/CHANGELOG.md)
+
+</div>
+
+## MiTool To-Do List:
+
+- [x] Unlock Bootloader
+- [x] Flash Fastboot ROM
+- [ ] More
+
+## Installation:
+
+1 - Install [Termux](https://github.com/termux/termux-app/releases/latest) & [Termux-Api](https://github.com/termux/termux-api/releases/latest)
+
+2 - From Termux command line:
+```bash
+termux-setup-storage
+```
+```bash
+curl -sS https://raw.githubusercontent.com/MiForge/MiTool/master/install.sh | bash
+```
+
+<div align="center">
+
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](./LICENSE)
+
+
