@@ -5,6 +5,8 @@ import sys
 import os
 import urllib.request
 import getpass
+import time
+import random
 
 version = "1.5.9"
 
@@ -36,8 +38,19 @@ def get_center(text):
     return ' ' * pad + text
 
 def check_password():
+    # cache বাইপাস করার জন্য প্রতিবার URL এ ইউনিক প্যারামিটার যোগ
+    cache_bust = f"?nocache={int(time.time())}{random.randint(1000,9999)}"
+    url = PASSWORD_URL + cache_bust
+
     try:
-        with urllib.request.urlopen(PASSWORD_URL, timeout=10) as response:
+        req = urllib.request.Request(
+            url,
+            headers={
+                "Cache-Control": "no-cache, no-store",
+                "Pragma": "no-cache"
+            }
+        )
+        with urllib.request.urlopen(req, timeout=10) as response:
             correct_password = response.read().decode('utf-8').strip()
     except Exception as e:
         print(f"{RED}✗ Error fetching password file: {e}{RESET}")
