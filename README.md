@@ -1,16 +1,14 @@
 <div align="center">
 
-<h1 style="font-size: 24px; color: #FF6719; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">MiTool</h1>
+<h1 style="font-size: 24px; color: #FF6719; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">zUnlock</h1>
 
 ![](https://img.shields.io/badge/Compatible%20with%20Android(Termux)-black?logo=android&logoColor=green&style=for-the-badge)
 
 [![Version 1.5.9](https://img.shields.io/badge/Version-1.5.9-brightgreen)](#)
 
-[![Changelog](https://img.shields.io/badge/Changelog-brightgreen)](https://github.com/MiForge/MiTool/blob/main/CHANGELOG.md)
-
 </div>
 
-## MiTool To-Do List:
+## zUnlock To-Do List:
 
 - [x] Unlock Bootloader
 - [x] Flash Fastboot ROM
