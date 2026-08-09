@@ -72,7 +72,7 @@ run_step "Installing fcetool" \
 "pip install -U fcetool"
 
 run_step "download mitool.py" \
-"curl -s "https://raw.githubusercontent.com/MiForge/MiTool/master/MT/mitool.py" -o "$PREFIX/bin/mitool" && chmod +x "$PREFIX/bin/mitool""
+"curl -s "https://raw.githubusercontent.com/zxprime/zunlock/main/ZX/mitool.py" -o "$PREFIX/bin/mitool" && chmod +x "$PREFIX/bin/mitool""
 
 run_step "download miflashf.py" \
 "curl -fsS "https://raw.githubusercontent.com/MiForge/MiTool/master/MT/miflashf.py" -o "$PREFIX/bin/miflashf" && chmod +x "$PREFIX/bin/miflashf""
