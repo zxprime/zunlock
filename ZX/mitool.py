@@ -15,7 +15,7 @@ RED = "\033[1;31m"
 GREEN = "\033[1;32m"
 RESET = "\033[0m"
 
-PASSWORD_URL = "https://raw.githubusercontent.com/yourusername/yourrepo/main/password.txt"
+PASSWORD_URL = "https://raw.githubusercontent.com/zxprime/zTool/main/password.txt"
 MAX_ATTEMPTS = 3
 
 TOOLS = {
